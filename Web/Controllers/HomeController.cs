@@ -42,6 +42,7 @@ namespace Web.Controllers
             }
 
             ViewBag.Result = $"Your Code is: {result}";
+            
             _logger.LogInformation($"your code is: {result}");
 
             return View();
