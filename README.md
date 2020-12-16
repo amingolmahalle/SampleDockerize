@@ -6,7 +6,7 @@ First Create Network to see 2 Container(means redis and my project) on Docker:
 
 then run redis along with join to created network and persist data:
 
-*before run below command.you should create redis folder in /tmp/data (path and folder name is optional.you can change their name as well as create folders path).
+* before run below command.you should create redis folder in /tmp/data (path and folder name is optional.you can change their name as well as create folders path).
 
 <code>sudo docker run --rm --name redis -p6380:6379 -v /tmp/data/redis:/data --network YourNetworkName redis redis-server --appendonly yes </code>
 
@@ -21,4 +21,4 @@ then after create image we should run container from created image and join to n
 
 finally call below url on browser:
 
-<b>localhost:80</b>
+<b>localhost</b>
