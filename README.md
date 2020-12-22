@@ -12,7 +12,7 @@ then run redis along with join to created network and persist data:
 
 then Create Image by dockerFile:
 
-<code>sudo docker build -t projectname:1.0</code>
+<code>sudo docker build -t projectname:1.0 .</code>
 * your project name have to be lowercase.
 
 then after create image we have to run container from created image and join to network:
